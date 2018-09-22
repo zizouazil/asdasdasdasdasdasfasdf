@@ -487,7 +487,8 @@ client.on('message', msg => {
     msg.channel.send(embed)
     }
 };
-});			 
+});	
+
 client.on('message', msg => {
   if(msg.content === '+unhide') {
     msg.guild.channels.forEach(c => {
